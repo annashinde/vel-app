@@ -8,7 +8,7 @@ pipeline {
 	   
 	      steps {
 		  
-		      sh "yum install httpd -y"
+		      sh "sudo yum install httpd -y"
 		  }
 	   
 	   }
