@@ -16,7 +16,7 @@ pipeline {
 	   
 	      steps {
 		  
-		      sh "service httpd start"
+		      sh "sudo service httpd start"
 		  
 		  }
 	   
